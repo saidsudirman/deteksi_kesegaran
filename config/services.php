@@ -34,5 +34,8 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'freshai' => [
+        'url' => env('FRESH_AI_URL', 'http://127.0.0.1:8001'),
+    ],
 
 ];
